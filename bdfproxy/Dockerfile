@@ -22,7 +22,7 @@ RUN apt-get update && apt-get -y install \
 
 RUN pip install capstone pefile configobj
 
-RUN pip install mitmproxy==0.16
+RUN pip install mitmproxy==0.17
 
 RUN git clone https://github.com/secretsquirrel/bdfproxy.git
 
